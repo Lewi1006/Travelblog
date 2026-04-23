@@ -63,3 +63,12 @@
   width: 100%;
   padding: 0px max(calc(50%-720px), 1rem);
 }
+.hihglight-section{
+  .head-titel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
+  bottom: 24px;
+}
+}
