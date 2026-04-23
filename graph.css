@@ -17,9 +17,19 @@ h4 {
     box-shadow: -2px 4px 11px rgba(0, 0, 0, 0.25);
 }
 
-.graph-content{
+.wrapper{
     display: flex;
     flex-direction: column;
     gap: 40px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     align-items: center;
+}
+
+.graphsquare{
+    height: 215px;
 }
