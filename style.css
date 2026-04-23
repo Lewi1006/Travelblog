@@ -63,9 +63,14 @@
   width: 100%;
   padding: 0px max(calc(50% - 720px), 1rem);
 }
-.hihglight-section{
-  height: 100dvh;
- 
+
+.highlight-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+
   .head-titel{
   display: flex;
   justify-content: center;
@@ -74,26 +79,58 @@
   bottom: 24px;
   }
 
-  .highligt-slider{
+  .highlight-slider{
+    position: relative;
+
     width: 335px;
     height: 533px;
 
     display: flex;
     justify-content: center;
     align-items: flex-end;
+
+    overflow: hidden;
   }
 
-  .highlight-slider-wrapper{
+  .slider-img img{
+    width: 335px;
+    height: 533px;
+  }
+
+  .highlight-silder-wrapper{
+    z-index: 1;
+
     width: 400%;
     height: 100%;
 
     position: absolute;
+    display: flex;
+
+    transition: all 250ms ease-in-out;
   }
 
-    .slider-img{
-      height: 100%;
-      width: calc(100% / 4);
-    }
+  .slider-img{
+    width: calc(100% / 4);
+    height: 100%;
+  }
 
+  .highlight-slider input{
+    z-index: 2;
+  }
 
+  .highlight-slider input[value="one"]:checked~.highlight-silder-wrapper{
+    transform: translateX(0);
+  }
+
+  .highlight-slider input[value="two"]:checked~.highlight-silder-wrapper{
+    transform: translateX(-25);
+  }
+
+  .highlight-slider input[value="three"]:checked~.highlight-silder-wrapper{
+    transform: translateX(-50);
+  }
+
+  .highlight-slider input[value="four"]:checked~.highlight-silder-wrapper{
+    transform: translateX(-75);
+  }
 }
