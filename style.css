@@ -50,7 +50,7 @@
 
 * {
   margin: 0;
-  border-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
   position: relative;
   color: inherit;
@@ -61,7 +61,7 @@
 
 .content {
   width: 100%;
-  padding: 0 max(calc(50%-720px), 1rem);
+  padding: 0 max(calc(50% - 720px), 1rem);
 }
 
 .header-mobile {
