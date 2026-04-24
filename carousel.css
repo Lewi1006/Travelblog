@@ -1,11 +1,10 @@
-.text-carousel-page {
-  width: 100%;
-  
+.wrapper > .carousel-text{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   gap: 32px;
+}
 
+.carousel-text {
   p,
   li {
     font-weight: 400px;
