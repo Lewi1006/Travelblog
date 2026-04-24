@@ -70,34 +70,35 @@
   align-items: center;
   flex-direction: column;
   height: 100vh;
+  width: 100%;
 
   .head-titel{
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 100px;
-  bottom: 24px;
+  width: 100%;
   }
 
   .highlight-slider{
     position: relative;
 
-    width: 335px;
-    height: 533px;
+   background-color: black;
 
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+   width: 250px;
+   height: 150px;
 
-    overflow: hidden;
-  }
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
 
-  .slider-img img{
-    width: 335px;
-    height: 533px;
-  }
+   overflow: hidden;
+   }
 
-  .highlight-silder-wrapper{
+   .highlight-slider input{
+    z-index: 2;
+   }
+
+   .highlight-slider-wrapper{
     z-index: 1;
 
     width: 400%;
@@ -106,31 +107,43 @@
     position: absolute;
     display: flex;
 
-    transition: all 250ms ease-in-out;
-  }
+    transition: all 0,5s ease-in-out;
+   }
 
-  .slider-img{
+   .slider-img{
     width: calc(100% / 4);
     height: 100%;
-  }
+   }
 
-  .highlight-slider input{
-    z-index: 2;
-  }
+   .element-one{
+    background-color: aquamarine;
+   }
 
-  .highlight-slider input[value="one"]:checked~.highlight-silder-wrapper{
-    transform: translateX(0);
-  }
+   .element-two{
+    background-color:brown ;
+   }
 
-  .highlight-slider input[value="two"]:checked~.highlight-silder-wrapper{
-    transform: translateX(-25);
-  }
+   .element-three{
+    background-color: goldenrod;
+   }
 
-  .highlight-slider input[value="three"]:checked~.highlight-silder-wrapper{
-    transform: translateX(-50);
-  }
+   .element-four{
+    background-color: blueviolet;
+   }
 
-  .highlight-slider input[value="four"]:checked~.highlight-silder-wrapper{
-    transform: translateX(-75);
-  }
+   .highlight-slider input[value="one"]:checked~.highlight-slider-wrapper{
+    transform: translateX(calc(100% / 4));
+   }
+
+   .highlight-slider input[value="two"]:checked~.highlight-slider-wrapper{
+    transform: translateX(calc(100% / 4));
+   }
+
+   .highlight-slider input[value="three"]:checked~.highlight-slider-wrapper{
+    transform: translateX(calc(100% / 4));
+   }
+
+   .highlight-slider input[value="four"]:checked~.highlight-slider-wrapper{
+    transform: translateX(calc(100% / 4));
+   }
 }
