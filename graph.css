@@ -1,5 +1,6 @@
 *{
     color:rgba(84, 55, 13, 1);
+    line-height: 120%;
 }
 
 h4 {
@@ -20,7 +21,7 @@ h4 {
 .wrapper{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 32px;
 }
 
 figure{
@@ -28,8 +29,4 @@ figure{
     flex-direction: column;
     gap: 16px;
     align-items: center;
-}
-
-.graphsquare{
-    height: 215px;
 }
