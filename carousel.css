@@ -39,11 +39,10 @@
     }
 
     .headline-info {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        line-height: 100%;
-     
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      line-height: 100%;
 
       .info {
         display: flex;
