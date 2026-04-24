@@ -133,17 +133,22 @@ h4 {
     box-shadow: -2px 4px 11px rgba(0, 0, 0, 0.25);
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
 figure{
     display: flex;
     flex-direction: column;
     gap: 24px;
     align-items: center;
+}
+
+.graphsquare{
+    height: 240px;
+    object-fit: cover;
+}
+
+.graph-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .footer {
