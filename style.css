@@ -64,12 +64,12 @@
     padding: 0 max(calc(50% - 720px), 16px);
 }
 
-<<<<<<< HEAD
 .wrapper {
     display: flex;
     flex-direction: column;
     gap: 32px;
-=======
+}
+
 .footer {
   width: 100%;
   height: auto;
@@ -126,5 +126,4 @@
       }
     }
   }
->>>>>>> footer
 }
