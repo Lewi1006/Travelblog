@@ -134,3 +134,56 @@
     transform: translateX(-75);
   }
 }
+
+
+
+
+
+
+.FAQ-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+
+  .faq-headline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h2{
+      font-size: 40px;
+      font-family: "Arima";
+      color: #4EA487;
+    }
+
+    img{
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  .faq-card{
+  background-color: #F1C953;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgb(black);
+}
+
+.summary{
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  list-style: none;
+  font-weight: bold;
+}
+
+p{
+  background-color: white;
+}
+}
+
