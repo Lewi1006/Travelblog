@@ -1,3 +1,34 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.carousel-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  p,
+  li {
+    font-weight: 400px;
+    line-height: 120%;
+  }
+
+  .ordered-list-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    ol {
+      padding-left: 24px;
+
+      li {
+        padding-left: 4px;
+      }
+    }
+  }
+}
 .footer {
   width: 100%;
   height: auto;
