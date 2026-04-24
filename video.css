@@ -1,0 +1,12 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.video-container iframe {
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    border-radius: 30px;
+    border: none;
+}
