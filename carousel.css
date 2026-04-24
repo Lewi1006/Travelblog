@@ -41,7 +41,17 @@
     .headline-info{
         width: 100%;
         height: auto;
-        
+        display: flex;
+
+        .info{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+
+
     }
   }
 
