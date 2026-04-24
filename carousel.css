@@ -1,7 +1,6 @@
 .text-carousel-page {
   width: 100%;
-  height: 100vh;
-
+  
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -19,13 +18,12 @@
     align-items: flex-start;
     gap: 24px;
 
-    ol{
-        padding-left: 24px;
+    ol {
+      padding-left: 24px;
 
-        li{
-            padding-left:4px;
-        }
-    
+      li {
+        padding-left: 4px;
+      }
     }
   }
 }
