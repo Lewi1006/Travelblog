@@ -1,62 +1,93 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
 
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <footer class="footer">
-      <div class="content">
-        <div class="footer-content-wrapper">
-          <div class="footer-left">
-            <a href="impressum.html">
-              <p>Imprint</p>
-            </a>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <section>
+                <div class="content">
+                    <div class="index-headline">
+                        <img src="./assets/icons/contact_icon.png" alt="" />
+                        <h2>Contact form</h2>
+                    </div>
 
-            <p>Cookie Preferences</p>
-            <div id="copyright">
-              <img
-                src="./assets/icons/copyright.svg"
-                alt="copyright icon white"
-              />
-              <p>Travel Blog 2026</p>
+                    <div class="contact-form-container">
+                        <form action="">
+                            <label for="name">What's your name?</label>
+                            <input type="text" />
+
+                            <label for="email">What's your email?</label>
+                            <input type="text" />
+
+                            <label for="message">How can I help?</label>
+                            <textarea></textarea>
+
+                            <label class="checkbox">
+                                <input type="checkbox" />
+                                I've read the <a href="">privacy policy</a> and
+                                agree to the processing of my data as outlined.
+                            </label>
+
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="content">
+                <div class="footer-content-wrapper">
+                    <div class="footer-left">
+                        <a href="impressum.html">
+                            <p>Imprint</p>
+                        </a>
+
+                        <p>Cookie Preferences</p>
+                        <div id="copyright">
+                            <img
+                                src="./assets/icons/copyright.svg"
+                                alt="copyright icon white"
+                            />
+                            <p>Travel Blog 2026</p>
+                        </div>
+                    </div>
+
+                    <div class="footer-right">
+                        <a href="https://www.tiktok.com" target="_blank">
+                            <img
+                                src="./assets/icons/tiktok.svg"
+                                alt="tiktok icon in yellow green"
+                            />
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <img
+                                id="yt"
+                                src="./assets/icons/youtube.svg"
+                                alt="youtube icon in yellow green"
+                            />
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img
+                                src="./assets/icons/facebook.svg"
+                                alt="facebook icon in yellow green"
+                            />
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <img
+                                src="./assets/icons/Instagram.svg"
+                                alt="instagram icon in yellow green"
+                            />
+                        </a>
+
+                        <!-- TEST -->
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <div class="footer-right">
-            <a href="https://www.tiktok.com" target="_blank">
-              <img
-                src="./assets/icons/tiktok.svg"
-                alt="tiktok icon in yellow green"
-              />
-            </a>
-            <a href="https://www.youtube.com/" target="_blank">
-              <img
-                id="yt"
-                src="./assets/icons/youtube.svg"
-                alt="youtube icon in yellow green"
-              />
-            </a>
-            <a href="https://www.facebook.com/" target="_blank">
-              <img
-                src="./assets/icons/facebook.svg"
-                alt="facebook icon in yellow green"
-              />
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-              <img
-                src="./assets/icons/Instagram.svg"
-                alt="instagram icon in yellow green"
-              />
-            </a>
-
-            <!-- TEST -->
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
+        </footer>
+    </body>
 </html>
