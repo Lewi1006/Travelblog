@@ -104,11 +104,29 @@ h2{
   border-bottom: 1px solid rgba(84, 55, 13, 1);
   padding: 8px 8px;
   outline: none;
+  width: 100%;
+  line-height: 1;
+}
+
+.contact-form-container textarea {
+  height: 40px;
+  resize: none;
+  overflow: hidden;
 }
 
 .checkbox{
   display: flex;
   gap: 8px;
+}
+
+button{
+  justify-self: center;
+  padding: 10px 30px;
+  border-radius: 40px;
+  border: 1px solid rgba(48, 48, 48, 0.5);
+  cursor: pointer;
+  font-family: "Arima";
+  font-weight: 700;
 }
 
 .footer {
