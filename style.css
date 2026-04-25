@@ -98,6 +98,11 @@ h2{
   gap: 20px;
 }
 
+label{
+  font-weight: 550;
+  font-size: 24px;
+}
+
 .contact-form-container input,
 .contact-form-container textarea {
   border: none;
@@ -117,6 +122,8 @@ h2{
 .checkbox{
   display: flex;
   gap: 8px;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 button{
@@ -127,6 +134,7 @@ button{
   cursor: pointer;
   font-family: "Arima";
   font-weight: 700;
+  font-size: 24px;
 }
 
 .footer {
