@@ -111,7 +111,7 @@
    }
 
    .slider-img{
-    width: calc(100% / 4);
+    width: calc(100% - 4);
     height: 100%;
    }
 
