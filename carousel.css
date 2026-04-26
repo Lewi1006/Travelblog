@@ -23,7 +23,7 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    padding: 20px;
+    padding: 0px 0px 0px 25px;
 }
 
 .pro-card{
@@ -45,8 +45,8 @@
     padding: 10px;
 
     transform: rotate(-12deg);
-    right: 35px;
-    top: 25px;
+    right: 60px;
+    top: 35px;
 }
 
 a{
@@ -58,4 +58,7 @@ h3{
     font-size: 28px;
 }
 
+.li{
+   font-family: "Palanquin"; 
+}
 
