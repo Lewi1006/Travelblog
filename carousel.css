@@ -18,3 +18,43 @@
   scroll-behavior: smooth;
 }
 
+.content-card{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+}
+
+.pro-card{
+    max-width: 320px;
+    padding: 20px;
+    border: 2px;
+}
+
+.badge{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #4EA487;
+    color: #F1C953;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    transform: rotate(-12deg);
+    right: 35px;
+    top: 25px;
+}
+
+a{
+    color: #4EA487;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 28px;
+}
+
