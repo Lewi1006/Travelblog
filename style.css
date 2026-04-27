@@ -78,7 +78,7 @@ h2{
   font-family: "Arima";
   color: rgba(78, 164, 135, 1);
 }
-
+/* #region contact form */
 .index-headline img{
   height: 40px;
   width: 40px;
@@ -198,6 +198,8 @@ form:has(#privacy:user-invalid) .error-message {
 .contact-form-container a:hover{
   font-weight: bold;
 }
+
+/* #endregion */
 
 .footer {
   width: 100%;
