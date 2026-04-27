@@ -105,9 +105,10 @@
     height: 100%;
 
     position: absolute;
+    left: 0;
     display: flex;
 
-    transition: all 0,5s ease-in-out;
+    transition: all 1s ease-in-out;
    }
 
    .slider-img{
@@ -132,18 +133,18 @@
    }
 
    .highlight-slider input[value="one"]:checked~.highlight-slider-wrapper{
-    transform: translateX(calc(100% / 4));
+    transform: translateX(0);
    }
 
    .highlight-slider input[value="two"]:checked~.highlight-slider-wrapper{
-    transform: translateX(calc(100% / 4));
+    transform: translateX(-25%);
    }
 
    .highlight-slider input[value="three"]:checked~.highlight-slider-wrapper{
-    transform: translateX(calc(100% / 4));
+    transform: translateX(-50%);
    }
 
    .highlight-slider input[value="four"]:checked~.highlight-slider-wrapper{
-    transform: translateX(calc(100% / 4));
+    transform: translateX(-75%);
    }
 }
