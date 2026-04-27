@@ -71,12 +71,21 @@
   flex-direction: column;
   height: 100vh;
   width: 100%;
+  gap: 24px;
 
   .head-titel{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  gap: 8px;
+  }
+
+  h2{
+    font-size: 40px;
+    color: #4EA487;
+    font-family: "Arima";
+    font-weight: 700;
   }
 
   .highlight-slider{
