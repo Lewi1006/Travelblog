@@ -73,6 +73,7 @@
   align-items: center;
   gap: 8px;
   width: 100%;
+  padding: 16px;
 
   .faq-headline{
     display: flex;
@@ -94,6 +95,29 @@
   .faq-card{
   background-color: #F1C953;
   border-radius: 12px;
+
+  width: 100%;
+  padding: 8px;
+}
+
+summary{
+  justify-content: space-between;
+  text-align: left;
+
+  width: 300px;
+  height: 70px;
+  font-size: 16px;
+  font-family: "Palanquin";
+  padding: 8px;
+}
+
+.arrow{
+  display: inline-block;
+
+  width: 24px;
+  height: 24px;
+
+  
 }
 
 p{
