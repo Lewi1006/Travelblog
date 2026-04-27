@@ -96,6 +96,7 @@ h2{
 .contact-form-container form{
   display: grid;
   gap: 20px;
+  width: 100%;
 }
 
 label{
@@ -119,12 +120,22 @@ label{
   overflow: hidden;
 }
 
+input,
+textarea {
+  color: rgba(78, 164, 135, 1);
+  font-weight: 500;
+  caret-color: rgba(78, 164, 135, 1);
+}
+
 .checkbox{
   display: flex;
   gap: 8px;
   font-size: 16px;
   font-weight: normal;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
+
 
 button{
   justify-self: center;
@@ -135,6 +146,12 @@ button{
   font-family: "Arima";
   font-weight: 700;
   font-size: 24px;
+}
+
+form:has(#privacy:checked) button {
+  background-color: rgba(78, 164, 135, 1);
+  color: rgba(241, 201, 83, 1);
+  border: none;
 }
 
 .footer {
