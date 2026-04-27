@@ -58,7 +58,12 @@ h3{
     font-size: 28px;
 }
 
+.p-tag-contant{
+    border-radius: 10px;
+    background-color: #4EA48733;
+}
+
 .li{
-   font-family: "Palanquin"; 
+    font-family: "Palanquin"; 
 }
 
