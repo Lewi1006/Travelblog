@@ -182,11 +182,11 @@
 
     border: 1px solid #f1f1f1;
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 270px;
-    height: 260px;
+    height: 220px;
     padding: 16px;
    }
 
