@@ -58,11 +58,9 @@ h3{
     font-size: 28px;
 }
 
-.p-tag-contant{
-    border-radius: 10px;
+.p-tag-content{
+    border-radius: 30px;
     background-color: #4EA48733;
-    width: 320px;
-    height: 280px;
 }
 
 .li{
