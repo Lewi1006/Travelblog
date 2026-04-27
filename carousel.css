@@ -1,0 +1,61 @@
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Arima";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/arima-v7-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+
+.share-content{
+    display: flex
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+
+p{
+    display: flex;
+    text-align: center;
+    font-family: "Arima";
+    color: #54370D;
+}
+
+.button-content img{
+    width: 32px;
+    height: 32px;
+}
+
+.button-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+    width: 343px;
+    height: 140px;
+}
+
+.share-button{
+    background-color: #4EA487;
+    color: #F1C953;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    border-radius: 40px;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    width: 158px;
+    height: 48px;
+
+    font-family: "Arima";
+}
+
+
+
+
