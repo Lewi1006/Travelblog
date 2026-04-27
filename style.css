@@ -82,8 +82,6 @@
   .highlight-slider{
     position: relative;
 
-   background-color: black;
-
    width: 300px;
    height: 500px;
 
@@ -118,19 +116,34 @@
 
    .element-one{
       background-image: url(./assets/img/tropical-beach.jpg);
+      background-repeat: no-repeat;
       background-position: center;
+      background-size: cover;
+      border-top-right-radius: 100px;
    }
 
    .element-two{
-    background-color:brown ;
+    background-image: url(./assets/img/scandinavia.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-top-right-radius: 100px;
    }
 
    .element-three{
-    background-color: goldenrod;
+    background-image: url(./assets/img/thailand.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-top-right-radius: 100px;
    }
 
    .element-four{
-    background-color: blueviolet;
+    background-image: url(./assets/img/mount-fuji.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-top-right-radius: 100px;
    }
 
    .highlight-slider input[value="one"]:checked~.highlight-slider-wrapper{
