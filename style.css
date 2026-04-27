@@ -186,9 +186,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 270px;
-    height: 190px;
+    height: 260px;
+    padding: 16px;
+   }
 
-    padding: 10px;
-    
+   .text-1{
+    font-size: 24px;
+    font-family: "Palanquin";
+    font-weight: bold;
+   }
+
+   .text-2{
+    font-size: 16px;
+    font-family: "Palanquin";
+    font-weight: 400;
    }
 }
