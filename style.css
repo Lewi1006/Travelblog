@@ -170,4 +170,25 @@
    .highlight-slider input[value="four"]:checked~.highlight-slider-wrapper{
     transform: translateX(-75%);
    }
+
+   .text-img{
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 270px;
+    height: 190px;
+
+    padding: 10px;
+    
+   }
 }
