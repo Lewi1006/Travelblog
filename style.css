@@ -190,6 +190,15 @@ form:has(#privacy:user-invalid) .error-message {
   display: block;
 }
 
+.contact-form-container a{
+  color: rgba(78, 164, 135, 1);
+  text-decoration: none;
+}
+
+.contact-form-container a:hover{
+  font-weight: bold;
+}
+
 .footer {
   width: 100%;
   height: auto;
