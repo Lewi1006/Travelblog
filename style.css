@@ -117,7 +117,6 @@ label{
 .contact-form-container textarea {
   height: 40px;
   resize: none;
-  overflow: hidden;
 }
 
 input,
@@ -133,7 +132,11 @@ textarea {
   font-size: 16px;
   font-weight: normal;
   align-items: flex-start;
-  justify-content: flex-start;
+}
+
+#privacy {
+  width: 13px;
+  /* background-color: rgba(78, 164, 135, 1); */
 }
 
 
@@ -152,6 +155,24 @@ form:has(#privacy:checked) button {
   background-color: rgba(78, 164, 135, 1);
   color: rgba(241, 201, 83, 1);
   border: none;
+}
+
+form:has(#privacy:checked) button:hover{
+  /* shadow button */
+  /* shadow text */
+}
+
+.error-message{
+  display: none;
+  color: red;
+  font-size: 16px;
+  margin-top: 5px;
+
+  width: 100%;
+}
+
+form:has(#privacy:user-invalid) .error-message {
+  display: block;
 }
 
 .footer {
