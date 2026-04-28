@@ -66,6 +66,7 @@
 
 .header-mobile {
   background-color: rgba(78, 164, 135, 1);
+  width: 100%;
   height: clamp(70px, 7dvw, 128px);
   display: flex;
   justify-content: center;
