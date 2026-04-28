@@ -40,6 +40,7 @@ p{
 .share-button{
     background-color: #4EA487;
     color: #F1C953;
+    border:#4EA487;
 
     display: flex;
     justify-content: center;
