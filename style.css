@@ -57,6 +57,9 @@
     font-size: inherit;
     font-family: "Palanquin";
     scroll-behavior: smooth;
+
+    color: rgba(84, 55, 13, 1);
+    line-height: 120%;
 }
 
 .content {
@@ -69,6 +72,139 @@
   flex-direction: column;
   gap: 32px;
 }
+
+h2{
+  font-size: 40px;
+  font-family: "Arima";
+  color: rgba(78, 164, 135, 1);
+}
+/* #region contact form */
+.index-headline img{
+  height: 40px;
+  width: 40px;
+  top: -3px;
+}
+
+.index-headline{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-layout{
+  display:flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contact-form-container form{
+  display: grid;
+  gap: 20px;
+  width: 100%;
+}
+
+label{
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+  border: none;
+  border-bottom: 1px solid rgba(84, 55, 13, 1);
+  padding: 8px 8px;
+  outline: none;
+  width: 100%;
+  line-height: 1;
+}
+
+.contact-form-container textarea {
+  height: 40px;
+  resize: none;
+}
+
+input,
+textarea {
+  color: rgba(78, 164, 135, 1);
+  font-weight: 500;
+  caret-color: rgba(78, 164, 135, 1);
+}
+
+.checkbox{
+  display: flex;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: normal;
+  align-items: flex-start;
+}
+
+#privacy {
+  width: 13px;
+  /* background-color: rgba(78, 164, 135, 1); */
+}
+
+
+button{
+  justify-self: center;
+  padding: 10px 24px;
+  border-radius: 40px;
+  border: 1px solid rgba(48, 48, 48, 0.5);
+  cursor: pointer;
+  width: 140px;
+  background-color: transparent;
+}
+
+button p{
+  font-family: "Arima";
+  color: rgba(115, 115, 115, 1);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+form:has(#privacy:checked) button {
+  background-color: rgba(78, 164, 135, 1);
+  border: none;
+}
+
+form:has(#privacy:checked) button p{
+  color: rgba(241, 201, 83, 1);
+  font-family: "Arima";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+form:has(#privacy:checked) button:hover{
+  box-shadow: 0px 4px 4px rgba(78, 164, 135, 0.30);
+}
+
+form:has(#privacy:checked) button:hover p{
+  text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.error-message{
+  display: none;
+  color: red;
+  font-size: 16px;
+  margin-top: 5px;
+
+  width: 100%;
+}
+
+form:has(#privacy:user-invalid) .error-message {
+  display: block;
+}
+
+.contact-form-container a{
+  color: rgba(78, 164, 135, 1);
+  text-decoration: none;
+}
+
+.contact-form-container a:hover{
+  font-weight: bold;
+}
+
+/* #endregion */
 
 .footer {
   width: 100%;
