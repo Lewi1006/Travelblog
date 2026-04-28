@@ -70,10 +70,28 @@
   gap: 32px;
 }
 
+#landing-section{
+  height: 80dvh;
+  background-image: url("./assets/img/landing-image.jpg");
 
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.yellow{
+  height: 40dvh;
+
+  position: absolute;
+  top:0;
+  left:0;
+  /* z-index: 4; */
+}
 
 .circle-icon{
   position: absolute;
+  height: 150px;
   top: -50%;
   left: 50%;
   transform: translate(-50%, 50%);
