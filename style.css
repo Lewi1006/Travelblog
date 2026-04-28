@@ -70,6 +70,26 @@
   gap: 32px;
 }
 
+#landing-page{
+  height: 100dvh;
+  background-color: rgba(241, 201, 83, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-container{
+  width: 100%;
+  height: 70dvh;
+}
+
+.landing-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
 .footer {
   width: 100%;
   height: auto;
