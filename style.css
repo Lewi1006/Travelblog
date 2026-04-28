@@ -121,6 +121,11 @@
    .slider-img{
     width: calc(100% / 4);
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    color: white;
    }
 
    .element-one{
@@ -181,24 +186,43 @@
     text-align: left;
 
     border: 1px solid #f1f1f1;
+    /* position: absolute; */
+    /* top: 35%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* width: 270px; */
+    /* height: 220px; */
+    /* padding: 16px; */
+   }
+
+   .text-field{
+    height: fit-content;
+    width: 95%;
+    padding: 3dvw;
+    margin-top: 80px;
+   }
+
+   .text-img{
+    background: white;
+    opacity: .2;
     position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 270px;
-    height: 220px;
-    padding: 16px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
    }
 
    .text-1{
     font-size: 24px;
     font-family: "Palanquin";
     font-weight: bold;
+    z-index: 10;
    }
 
    .text-2{
     font-size: 16px;
     font-family: "Palanquin";
     font-weight: 400;
+    z-index: 10;
    }
 }
