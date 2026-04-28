@@ -90,7 +90,12 @@ h2{
   gap: 8px;
   align-items: center;
   justify-content: center;
+}
 
+.contact-layout{
+  display:flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .contact-form-container form{
