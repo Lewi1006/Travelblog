@@ -59,6 +59,10 @@ p{
     right: 30px;
 }
 
+.share-button a{
+    display: flex;
+}
+
 .button-content > img{
     width: 50px;
     height: 60px;
