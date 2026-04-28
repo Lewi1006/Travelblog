@@ -77,6 +77,13 @@
 
   background-color: rgba(241, 201, 83, 1);
 
+  @media screen and (min-width: 620px) {
+    display: none;
+    
+  } {
+    
+  }
+
   .nav-bar-items {
     display: flex;
     justify-content: space-between;
