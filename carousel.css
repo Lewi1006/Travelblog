@@ -27,7 +27,7 @@
 }
 
 .pro-card{
-    max-width: 320px;
+    width: 320px;
     padding: 20px;
     border: 2px;
 }
@@ -67,3 +67,53 @@ h3{
     font-family: "Palanquin"; 
 }
 
+@media screen and (max-width: 600px) {
+    .pro-card{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1199px) {
+    .pro-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .p-tag-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+    }
+
+    .badge{
+        transform: rotate(-12deg);
+        right: 240px;
+        top: 40px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px){
+    .pro-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 26px 16px 24px 16px;
+    }
+
+    .p-tag-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 720px;
+    }
+
+    .badge{
+        transform: rotate(-12deg);
+        right: 360px;
+        top: 50px;
+    }
+}
