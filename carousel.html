@@ -47,7 +47,7 @@
                 <span class="kicker">Where the Ocean Meets Your Soul </span>
                 The World’s Most Breathtaking Beaches
               </h1>
-              <p>
+              <p class="p-headline-section">
                 From powder-soft white sands to dramatic coastlines kissed by
                 turquoise waves, these beaches are more than destinations —
                 they’re feelings.
@@ -111,17 +111,21 @@
 
       <!-- #region slider -->
       <div class="content">
-        <article class="slider">
+        <section class="slider">
           <section class="carousel-slider-section">
             <h2>TOP 5 beach destinations for 2026</h2>
 
-        
-              <input type="radio" name="slider" value="one" checked />
-              <input type="radio" name="slider" value="two" />
-              <input type="radio" name="slider" value="three" />
-              <input type="radio" name="slider" value="four" />
-              <input type="radio" name="slider" value="five" />
-         
+            <input
+              id="slider1"
+              type="radio"
+              name="slider"
+              value="one"
+              checked
+            />
+            <input id="slider2" type="radio" name="slider" value="two" />
+            <input id="slider3" type="radio" name="slider" value="three" />
+            <input id="slider4" type="radio" name="slider" value="four" />
+            <input id="slider5" type="radio" name="slider" value="five" />
 
             <section class="carousel-slider">
               <div class="carousel-slider-element slider-foto-one">
@@ -155,8 +159,16 @@
                 />
               </div>
             </section>
+
+            <div class="slider-buttons">
+              <label for="slider1"></label>
+              <label for="slider2"></label>
+              <label for="slider3"></label>
+              <label for="slider4"></label>
+              <label for="slider5"></label>
+            </div>
           </section>
-        </article>
+        </section>
       </div>
       <!-- #regionend -->
 
