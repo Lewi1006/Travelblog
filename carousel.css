@@ -1,3 +1,4 @@
+
 section{
   padding-top: 24px;
 }
@@ -352,13 +353,80 @@ section{
     }
   }
 }
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: "Arima";
-  font-style: normal;
-  font-weight: 400;
-  src: url("./assets/fonts/arima-v7-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+
+/* #region slider */
+
+.slider {
+  display: flex;
+  justify-content: center;
 }
+
+.carousel-slider-section {
+  height: 440px;
+  width: 288px;
+
+  h2 {
+    font-family: "Arima";
+    font-weight: 600;
+    line-height: 120%;
+    font-size: 1.1rem;
+
+    display: flex;
+    justify-content: center;
+    color: rgba(84, 55, 13, 1);
+  }
+
+  .carousel-slider {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+
+    .carousel-slider-element {
+      height: 293px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        height: 100%;
+        width: 200px;
+
+        object-fit: cover;
+        border-radius: 16px;
+        box-shadow: -2px 4px 11px rgba(0, 0, 0, 0.25);
+
+        transform: perspective(250px) rotateY(20deg) translate(-20px);
+        transform-origin: 50% 50%;
+
+        transform: all 250ms ease-in-out;
+      }
+
+      img:hover {
+        z-index: 2;
+
+        transform: perspective(250px) rotateY(0deg) translate(0px) scaleX(1)
+          scaleY(1);
+      }
+    }
+    .carousel-slider-element:hover ~ .carousel-slider-element img{
+    
+      transform: perspective(250px) rotateY(-20deg) translate(20px) scaleX(1)
+              scaleY(1);
+    }
+  }
+}
+
+
+/* #regionend */
+
+
+
+
+
+
 
 
 
