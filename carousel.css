@@ -114,8 +114,7 @@ p{
     right: 200px;
     bottom: 100px;
 
-    transform: rotate(-5deg);
-
+    transform: rotate(-5deg)
 }
 
 }
