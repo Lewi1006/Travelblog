@@ -55,11 +55,13 @@
 .carousel-text {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  align-items: center;
+  gap: clamp(32px, 6dvw, 80px);
   p,
   li {
     font-weight: 400px;
     line-height: 120%;
+    font-size: clamp(16px, 4dvw, 24px);
   }
 
   .ordered-list-carousel {
@@ -67,6 +69,11 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
+
+    @media screen and (min-width: 1200px) {
+      width: 1000px
+      
+    }
 
     ol {
       padding-left: 24px;
