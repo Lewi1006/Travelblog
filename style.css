@@ -1,70 +1,70 @@
 /* arima-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Arima";
-    font-style: normal;
-    font-weight: 400;
-    src: url("./assets/fonts/arima-v7-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Arima";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/arima-v7-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* arima-600 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Arima";
-    font-style: normal;
-    font-weight: 600;
-    src: url("./assets/fonts/arima-v7-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Arima";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/arima-v7-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* arima-700 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Arima";
-    font-style: normal;
-    font-weight: 700;
-    src: url("./assets/fonts/arima-v7-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Arima";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/arima-v7-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 /* palanquin-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Palanquin";
-    font-style: normal;
-    font-weight: 400;
-    src: url("./assets/fonts/palanquin-v17-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Palanquin";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/palanquin-v17-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* palanquin-600 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Palanquin";
-    font-style: normal;
-    font-weight: 600;
-    src: url("./assets/fonts/palanquin-v17-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Palanquin";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/palanquin-v17-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 /* palanquin-700 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Palanquin";
-    font-style: normal;
-    font-weight: 700;
-    src: url("./assets/fonts/palanquin-v17-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Palanquin";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/palanquin-v17-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 * {
-    margin: 0;
-    box-sizing: border-box;
-    padding: 0;
-    position: relative;
-    color: inherit;
-    font-size: inherit;
-    font-family: "Palanquin";
-    scroll-behavior: smooth;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  color: inherit;
+  font-size: inherit;
+  font-family: "Palanquin";
+  scroll-behavior: smooth;
 
-    color: rgba(84, 55, 13, 1);
-    line-height: 120%;
+  color: rgba(84, 55, 13, 1);
+  line-height: 120%;
 }
 
 .content {
-    width: 100%;
-    padding: 0 max(calc(50% - 720px), 16px);
+  width: 100%;
+  padding: 0 max(calc(50% - 720px), 16px);
 }
 
 .wrapper {
@@ -101,26 +101,25 @@
     }
   }
 
-#landing-section{
+#landing-section {
   height: 80dvh;
   background-image: url("./assets/img/landing-image.jpg");
 
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-
-.yellow{
+.yellow {
   height: 40dvh;
 
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   /* z-index: 4; */
 }
 
-.circle-icon{
+.circle-icon {
   position: absolute;
   height: 150px;
   top: -50%;
@@ -129,38 +128,38 @@
   z-index: 10;
 }
 
-h2{
+h2 {
   font-size: 40px;
   font-family: "Arima";
   color: rgba(78, 164, 135, 1);
 }
 /* #region contact form */
-.index-headline img{
+.index-headline img {
   height: 40px;
   width: 40px;
   top: -3px;
 }
 
-.index-headline{
+.index-headline {
   display: flex;
   gap: 8px;
   align-items: center;
   justify-content: center;
 }
 
-.contact-layout{
-  display:flex;
+.contact-layout {
+  display: flex;
   flex-direction: column;
   gap: 32px;
 }
 
-.contact-form-container form{
+.contact-form-container form {
   display: grid;
   gap: 20px;
   width: 100%;
 }
 
-label{
+label {
   font-weight: 500;
   font-size: 24px;
 }
@@ -187,7 +186,7 @@ textarea {
   caret-color: rgba(78, 164, 135, 1);
 }
 
-.checkbox{
+.checkbox {
   display: flex;
   gap: 8px;
   font-size: 16px;
@@ -200,8 +199,7 @@ textarea {
   /* background-color: rgba(78, 164, 135, 1); */
 }
 
-
-button{
+button {
   justify-self: center;
   padding: 10px 24px;
   border-radius: 40px;
@@ -211,7 +209,7 @@ button{
   background-color: transparent;
 }
 
-button p{
+button p {
   font-family: "Arima";
   color: rgba(115, 115, 115, 1);
   font-weight: 700;
@@ -223,22 +221,22 @@ form:has(#privacy:checked) button {
   border: none;
 }
 
-form:has(#privacy:checked) button p{
+form:has(#privacy:checked) button p {
   color: rgba(241, 201, 83, 1);
   font-family: "Arima";
   font-weight: 700;
   font-size: 24px;
 }
 
-form:has(#privacy:checked) button:hover{
-  box-shadow: 0px 4px 4px rgba(78, 164, 135, 0.30);
+form:has(#privacy:checked) button:hover {
+  box-shadow: 0px 4px 4px rgba(78, 164, 135, 0.3);
 }
 
-form:has(#privacy:checked) button:hover p{
+form:has(#privacy:checked) button:hover p {
   text-shadow: -2px 2px 4px rgba(0, 0, 0, 0.25);
 }
 
-.error-message{
+.error-message {
   display: none;
   color: red;
   font-size: 16px;
@@ -251,12 +249,12 @@ form:has(#privacy:user-invalid) .error-message {
   display: block;
 }
 
-.contact-form-container a{
+.contact-form-container a {
   color: rgba(78, 164, 135, 1);
   text-decoration: none;
 }
 
-.contact-form-container a:hover{
+.contact-form-container a:hover {
   font-weight: bold;
 }
 
@@ -274,46 +272,53 @@ form:has(#privacy:user-invalid) .error-message {
     padding: 30px 0;
 
     .footer-left {
-      display:flex;
+      display: flex;
       flex-direction: column;
+
+      @media screen and (min-width: 620px) {
+        display: flex;
+        flex-direction: row;
+        gap: clamp(24px, 4.5dvw, 72px);
+      }
       div,
-      p, a {
+      p,
+      a {
         font-size: 1rem;
         font-weight: 400;
         color: rgba(255, 255, 255, 1);
         text-decoration: none;
       }
 
-      #copyright{
+      #copyright {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 6px;
 
-        img{
-          height: 16px;
-          width: 16px;
+        img {
+          height: clamp(16px, 2dvw, 20px);
+          width: clamp(16px, 2dvw, 20px);
         }
       }
     }
 
-    .footer-right{
+    .footer-right {
       display: flex;
       justify-content: space-between;
       align-items: baseline;
       gap: 7px;
 
-      a{
+      a {
         text-decoration: none;
       }
 
-      img{
-        width: 24px;
-        height: auto;
+      img {
+        width: clamp(24px, 3dvw, 32px);
+        height: clamp(24px, 3dvw, 32px);
       }
 
-      #yt{
-        width:34px;
+      #yt {
+        width: clamp(34px, 4dvw, 44px);
         height: auto;
       }
     }
