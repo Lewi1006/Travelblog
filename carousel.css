@@ -81,8 +81,8 @@ p{
     }
 }
 
-@media screen and (min-width: 901px) (max-width: 1440px) {
-    .headline{
+@media screen and (min-width: 901px) and (max-width: 1440px) {
+    .headline p{
         max-width: 320px;
         display: flex;
         justify-content: center;
