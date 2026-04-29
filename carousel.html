@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en">
-    <head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carousel</title>
@@ -8,15 +8,34 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="carousel.css" />
   </head>
-
   <body>
-    <header>
-        <div class="header-mobile">
+    <header class="header-background">
+      <div class="content">
+        <section class="header-mobile">
           <img
             id="header-img-mobile"
             src="./assets/icons/travelblog_logo.svg"
             alt="travelblog logo with plane flying around globe"
           />
+
+          <div class="header-right">
+            <nav>
+              <ul class="nav-bar">
+                <li class="hover">
+                  <a href>Highlights</a>
+                </li>
+
+                <li class="hover">
+                  <a href>FAQ</a>
+                </li>
+
+                <li class="hover">
+                  <a href>Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </section>
       </div>
     </header>
     <main>
@@ -89,8 +108,9 @@
           </aside>
         </article>
       </div>
+      
 
-<div class="content">
+      <div class="content">
         <div class="wrapper">
           <article class="carousel-text">
             <section>
@@ -137,11 +157,57 @@
           </article>
         </div>
       </div>
-
-
-
+      <section class="share-content">
+        <div class="headline">
+        <p>Follow me for more content like this, and share the article with your friends!</p>
+        </div>
+        <div class="button-content">
+            <img src="./assets/icon/Arrow.svg" alt="gebogener Pfeil">
+            <button class="share-button">
+                <a href="https://de.linkedin.com/" target="_blank"><img src="./assets/icon/share-icon.svg" alt="Share-icon"></a>
+                Share
+            </button>
+        </div>
+        <div class="arrow2">
+        <img src="./assets/icon/arrow-2.svg" alt="arrow2">
+        </div>
+    </section>
     </main>
-   <footer class="footer">
+
+    <nav class="nav-bar-mobile">
+      <div class="content">
+        <ul class="nav-bar-items">
+          <li>
+            <a href="index.html">
+              <img
+                src="./assets/icons/home.svg"
+                alt="house icon for home button"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./assets/icons/rocket_launch.svg" alt="rocket icon" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./assets/icons/live_help.svg"
+                alt="question mark icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="./assets/icons/person_pin.svg" alt="person pin icon" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <footer class="footer">
       <div class="content">
         <div class="footer-content-wrapper">
           <div class="footer-left">
