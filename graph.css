@@ -137,6 +137,12 @@ section{
     }
   }
 
+.graph-section .content{
+  display: grid;
+  gap: 24px;
+  padding-bottom: 24px;
+}
+
 
 h4 {
     font-size: 20px;
