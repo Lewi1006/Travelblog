@@ -71,6 +71,10 @@ section {
   padding-top: 64px;
 }
 
+.header-mobile{
+  padding-top: 0;
+}
+
 #contact-section{
   padding-bottom: 64px;
 }
