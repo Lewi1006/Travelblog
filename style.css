@@ -80,8 +80,7 @@
   @media screen and (min-width: 620px) {
     display: none;
     
-  } {
-    
+  } 
   }
 
   .nav-bar-items {
@@ -96,4 +95,3 @@
       width: 40px;
     }
   }
-}
