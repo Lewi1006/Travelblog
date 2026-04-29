@@ -1,3 +1,11 @@
+section{
+  padding-top: 24px;
+}
+
+.ordered-list-carousel{
+  padding-bottom: 24px;
+}
+
 .header-mobile {
   background-color: rgba(78, 164, 135, 1);
   height: clamp(70px, 7dvw, 128px);
@@ -9,10 +17,6 @@
     height: 56px;
     width: 56px;
   }
-}.wrapper{
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
 }
 
 .carousel-text {

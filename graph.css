@@ -16,6 +16,10 @@
     line-height: 120%;
 }
 
+section{
+  padding-top: 24px;
+}
+
 .article-layout {
   display: flex;
   flex-direction: column;

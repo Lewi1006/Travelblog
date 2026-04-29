@@ -16,6 +16,17 @@
     line-height: 120%;
 }
 
+section{
+  padding-top: 24px;
+}
+
+.video-section{
+  display: flex;
+  flex-direction: column;
+  gap:24px;
+  padding-bottom: 24px;
+}
+
 .video-container {
     display: flex;
     justify-content: center;
