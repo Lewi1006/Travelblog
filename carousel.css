@@ -360,17 +360,23 @@ section {
 
 .carousel-slider-section {
   height: 440px;
-  width: clamp(288px, 40dvw, 1200px);
+  width: clamp(288px, 70dvw, 1100px);
 
   h2 {
     font-family: "Arima";
     font-weight: 600;
     line-height: 120%;
-    font-size: clamp(20px, 4dvw, 24px);
+    font-size: 1.1rem;
 
     display: flex;
     justify-content: center;
     color: rgba(84, 55, 13, 1);
+
+@media screen and (min-width: 900px) {
+  font-size: clamp(20px, 2dvw, 24px);
+      
+    }
+
   }
 
   input{
