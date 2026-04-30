@@ -360,13 +360,13 @@ section {
 
 .carousel-slider-section {
   height: 440px;
-  width: 288px;
+  width: clamp(288px, 40dvw, 1200px);
 
   h2 {
     font-family: "Arima";
     font-weight: 600;
     line-height: 120%;
-    font-size: 1.1rem;
+    font-size: clamp(20px, 4dvw, 24px);
 
     display: flex;
     justify-content: center;
@@ -434,6 +434,11 @@ section {
       height: 22px;
       border-radius: 50%;
       background: rgba(78, 164, 135, 0.3);
+
+      @media screen and (min-width: 900px) {
+        display: none;
+        
+      }
     }
 
     label:hover{
