@@ -48,6 +48,7 @@ section {
   padding: 0 max(calc(50% - 720px), 1rem);
 }
 
+
 .header-background {
   background-color: rgba(78, 164, 135, 1);
 }
@@ -438,10 +439,13 @@ section {
     gap: 5px;
 
     label {
+      display: inline-block;
       width: 22px;
       height: 22px;
       border-radius: 50%;
       background: rgba(78, 164, 135, 0.3);
+       transition: all 250ms ease-in-out;
+       z-index: 3;
 
       @media screen and (min-width: 900px) {
         display: none;
@@ -451,9 +455,10 @@ section {
 
     label:hover{
     width: 40px;
-    height: 22px;
+    border-radius: 50px;
     background-color: rgba(78, 164, 135, 1);
-    transition: all 250ms ease-in-out;
+    margin: 0 6px;
+   
   }
   }
 }
